@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Слухачі подій</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <p><a href="/">На головну</a></p>
+
+    <button type="button" class="js-target-btn">Цільова кнопка</button>
+    <button type="button" class="js-add-listener">Додати слухач</button>
+    <button type="button" class="js-remove-listener">Зняти слухач</button>
+
+    <script src="./js/01-event-listeners.js" type="module"></script>
+  </body>
+</html>
+
+<!-- У JavaScript обробник подій (event handler) та слухач подій (event listener) виконують схожу функцію, а саме обробку подій, що відбуваються в браузері.
+
+Однак, різниця полягає в тому, що обробники подій встановлюються безпосередньо на елемент, що має обробляти події, за допомогою атрибута HTML, наприклад: onclick="functionName()". Такий спосіб був популярний у старих версіях JavaScript і HTML, проте не рекомендується використовувати зараз.
+
+З іншого боку, слухачі подій дозволяють додати обробку подій до будь-якого елемента на сторінці за допомогою методу addEventListener(). Цей метод приймає два аргументи: ім'я події, яку потрібно обробити, і функцію, яка буде викликана при виникненні цієї події. Слухачі подій є більш гнучким і більш рекомендованим способом обробки подій в сучасних версіях JavaScript та HTML. -->
